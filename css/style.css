@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+}
+
+/*  HEADER */
+
+header{
+    background-color: orange;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+}
+
+header>img{
+    height: 2em;
+}
+
+header>nav>a{
+    color: white;
+    text-decoration: none;
+}
+
+/* MAIN */
+
+main>div{
+    background-color: red;
+    padding: 13%;
+    display: flex;
+}
+main>div>img{
+    width: 32%;
+}
+
+/* FOOTER */
+
