@@ -9,6 +9,11 @@ body{
     position: relative;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 /*  HEADER */
 
 header{
@@ -17,18 +22,18 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px;
     position: fixed;
     z-index: 99;
+    padding:20px 0;
 }
 
 header>img{
     height: 2em;
 }
 
-header>nav>a{
-    color: white;
-    text-decoration: none;
+nav{
+    display: flex;
+    gap: 10px;
 }
 
 /* MAIN */
@@ -84,11 +89,14 @@ main>div{
     background-color: white;
     text-align: center;
     font-size: 2em;
-    text-decoration: none;
     position: absolute;
     top: 2%;
     right: 0;
     width: 1em;
+}
+
+.liked-element:hover{
+    color: red;
 }
 
 /* IMAGES VARIATIONS */
@@ -128,4 +136,30 @@ main>div{
 }
 
 /* FOOTER */
+
+footer{
+    color: white;
+    padding: 0 calc(25% / 2);
+    background-color: #1a1a1a;
+    margin-top: 50px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer>div>h4{
+    padding-bottom: 15px;
+}
+footer>div>a{
+    font-size: 0.9em;
+    padding-right:5px;
+}
+.social{
+    text-align: center;
+}
+.social>a{
+    font-size: 1.5em;
+    
+}
 
