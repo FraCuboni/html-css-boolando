@@ -39,7 +39,6 @@ main{
 }
 main>div{
     width: 75%;
-    background-color: antiquewhite;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -62,6 +61,7 @@ main>div{
 }
 
 .stickers{
+    color: white;
     position: relative;
     display: flex;
     position: absolute;
@@ -89,6 +89,27 @@ main>div{
     top: 2%;
     right: 0;
     width: 1em;
+}
+
+/* IMAGES VARIATIONS */
+
+.first-img>img:hover{
+    content: url(../img/1b.webp);
+}
+.second-img>img:hover{
+    content: url(../img/2b.webp);
+}
+.third-img>img:hover{
+    content: url(../img/3b.webp);
+}
+.fourth-img>img:hover{
+    content: url(../img/4b.webp);
+}
+.fifth-img>img:hover{
+    content: url(../img/5b.webp);
+}
+.sixth-img>img:hover{
+    content: url(../img/6b.webp);
 }
 
 /* PRODUCT SUBTITLE */
