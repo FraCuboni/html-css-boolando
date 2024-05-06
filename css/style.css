@@ -19,6 +19,7 @@ header{
     align-items: center;
     padding: 10px;
     position: fixed;
+    z-index: 99;
 }
 
 header>img{
@@ -44,30 +45,44 @@ main>div{
     justify-content: space-between;
 }
 
-.productframe{
+/* PRODUCT IMAGE */
+
+.product-frame{
     width:32%;
     min-height: 500px;
+    padding-top: 100px;
 }
 
-.productframe>img{
+.product-frame>div>img{
     width: 100%;
+}
+
+.product-image{
+    position: relative;
+}
+
+.sale-sticker{
+    background-color: #fd0f0f;
+}
+
+.sustainable-sticker{
+    background-color: #008000;
 }
 
 /* PRODUCT SUBTITLE */
 
-.productsubtitle>span{
+.product-subtitle>span{
     font-size: 0.9em;
 }
 
-.productsubtitle :nth-child(3){
+.product-ubtitle :nth-child(3){
     color: #ff1a05;
     font-weight: 700;
 }
 
-.productsubtitle :last-child{
+.product-subtitle :last-child{
     text-decoration: line-through;
 }
-
 
 /* FOOTER */
 
