@@ -61,12 +61,34 @@ main>div{
     position: relative;
 }
 
+.stickers{
+    position: relative;
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    gap: 5px;
+}
+
 .sale-sticker{
     background-color: #fd0f0f;
+    padding: 0.3em;
 }
 
 .sustainable-sticker{
     background-color: #008000;
+    padding: 0.3em;
+}
+
+.liked-element{
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    position: absolute;
+    top: 2%;
+    right: 0;
+    width: 1em;
 }
 
 /* PRODUCT SUBTITLE */
@@ -75,7 +97,7 @@ main>div{
     font-size: 0.9em;
 }
 
-.product-ubtitle :nth-child(3){
+.product-subtitle :nth-child(3){
     color: #ff1a05;
     font-weight: 700;
 }
